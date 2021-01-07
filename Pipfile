@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = {file = "https://download.pytorch.org/whl/cu110/torch-1.7.1%2Bcu110-cp39-cp39-linux_x86_64.whl"}
+torchvision = {file = "https://download.pytorch.org/whl/cu110/torchvision-0.8.2%2Bcu110-cp39-cp39-linux_x86_64.whl"}
+torchaudio = {file = "https://download.pytorch.org/whl/torchaudio-0.7.2-cp39-cp39-linux_x86_64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
